@@ -37,6 +37,9 @@ body {
 
 .header {
     border-bottom: 1px solid #e7e9fc;
+    box-shadow: 0px 2px 1px rgba(46, 47, 66, 0.08),
+        0px 1px 1px rgba(46, 47, 66, 0.16),
+        0px 1px 6px rgba(46, 47, 66, 0.08);;
 }
 
 .header-container {
@@ -87,7 +90,7 @@ font-weight: 500;
     font-size: 16px;
     line-height: 1.5;
     letter-spacing: 0.02em;
-    color: #2e2f42;
+    color: #404bbf;
     padding: 24px 0;
     position: relative;
     transition-property: color;
@@ -103,7 +106,7 @@ font-weight: 500;
     background-color: #404BBF;
     border-radius: 2px;
     position: absolute;
-    bottom: -3px;
+    bottom: -1px;
     left: 0;
 }
 
@@ -238,6 +241,7 @@ font-weight: 500;
     border: 1px solid #8E8F99;
     width: 264px;
     height: 112px;
+    margin-bottom: 8px;
 }
 
 .section-adv-headers {

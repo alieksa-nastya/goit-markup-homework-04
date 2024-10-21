@@ -160,6 +160,7 @@ font-weight: 500;
         background-repeat: no-repeat;
         background-position: center;
         max-width: 1440px;
+        margin: 0 auto;
 }
 
 .section-one-title {
@@ -280,12 +281,6 @@ justify-content: center;
 
 .section-team-list-cont {
     padding: 32px 0;
-    display: flex;
-    gap: 24px;
-    align-items: center;
-    justify-content: center;
-    max-width: 232px;
-    flex-wrap: wrap;
 }
 
 .team-list {
